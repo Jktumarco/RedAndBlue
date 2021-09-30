@@ -138,7 +138,7 @@ public class QuClass : MonoBehaviour
     }
 
 
-    // выбираю максимальную intensive и затем, если в одной армии несколько похожих, то вибираю приоритет по номеру;
+    
     public Unit GetPriorityUnit(List<Unit> unit)
     {
         if (unit == null) return null;
